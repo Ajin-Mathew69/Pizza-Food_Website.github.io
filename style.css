@@ -197,7 +197,7 @@ margin-left: 0.625rem;
 
 /* === Menu Design === */
 
-/* .menu .card{
+ .menu .card{
     border: none;
 }
 
@@ -215,7 +215,7 @@ margin-left: 0.625rem;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 2px dotted var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     z-index: -1;
     transform: translateX(-50%) translateY(-50%) scale(0);
     background: var(--primary-color);
@@ -223,5 +223,19 @@ margin-left: 0.625rem;
 }
 
 .card:hover .link_category_product::before{
-    transform: translateX(-50%) translateY(-50%) scale(0);
-} */
+    transform: translateX(-50%) translateY(-50%) scale(1);
+} 
+
+.menu .cate-title a{
+    text-align: center;
+    font-size: 0.8125rem;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--black-color);
+}
+.card:hover .cate-title a{
+    color: var(--primary-color);
+
+}
