@@ -46,14 +46,14 @@ body {
     background: var(--white-color);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 /*==== Custom CSS-Design ====*/
 h1 {
     font-size: 58px;
     font-weight: 900;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: var(--white-color);
     text-shadow: 1px 0 6px #000;
 }
@@ -85,13 +85,13 @@ h5 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+   
 }
 p {
     font-size: 1rem;
     color: var(--text-color);
     font-weight: 400;
-    line-height: 1.7rem;
+    line-height: 1.75rem;
     letter-spacing: 1px;
 }
 
@@ -161,7 +161,7 @@ p {
 .navigation-wrap .main-btn {
 padding: 0.3125rem 1.4375rem;
 box-shadow: none;
-margin-left: 00.625rem;
+margin-left: 0.625rem;
 }
 
 /* ==== Change Navbar styling on scroll ==== */
@@ -183,3 +183,45 @@ margin-left: 00.625rem;
     color: var(--primary-color);
 
 }
+
+/* ===Top Banner Design=== */
+.top-banner{
+    width: 100%;
+    background: url("/images/bg/bg-1.jpg") no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+.top-banner p{
+    color: var(--white-color);
+}
+
+/* === Menu Design === */
+
+/* .menu .card{
+    border: none;
+}
+
+
+.menu .link_category_product{
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.menu .link_category_product::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dotted var(--secondary-color);
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    background: var(--primary-color);
+    transition: all .4s ease-out;
+}
+
+.card:hover .link_category_product::before{
+    transform: translateX(-50%) translateY(-50%) scale(0);
+} */
