@@ -30,6 +30,11 @@
         padding: 0;
     }
 
+    /* ====Footer Link==== */
+    .footer .footer-social a i{
+        padding: 0 0.75rem;
+    }
+
 }
 
 @media (max-width: 767px){
