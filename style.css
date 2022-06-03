@@ -1,4 +1,4 @@
-
+@import url();
 
 * {
     box-sizing: border-box;
@@ -190,7 +190,7 @@ margin-left: 0.625rem;
 /* ===Top Banner Design=== */
 .top-banner{
     width: 100%;
-    background: url("/images/bg/bg-1.jpg") no-repeat center;
+    background: url('./images/bg/bg-1.jpg') no-repeat center;
     background-size: cover;
     padding: 16.875rem 0 9.375rem;
 }
@@ -270,13 +270,13 @@ padding-top: 3.25rem;
     margin-left: 30px;
 }
 
-.food-type ul li ::before{
+.food-type ul li::before{
     position: absolute;
-    left: 2.1875rem;
+    left: -2.1875rem;
     color: var(--primary-color);
     font-size: 1.25rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    content: '\f00c';
+    content:"\2713";
     display: inline-block;
     padding-right: 3px;
     vertical-align: middle;
